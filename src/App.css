@@ -1,0 +1,39 @@
+body {
+  background-color: #1e3a8a; /* light blue */
+  color: #ffffff;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.add-column-btn {
+  min-width: 300px;
+  height: 40px;
+  background-color: #a0aec0;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.add-column-btn:hover {
+  background-color: #718096;
+}
+
+.app_main{
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #1e3a8a;
+}
+
+.task_column{
+    width: 33.33%;
+    /* background-color: tomato; */
+    margin: 20px;
+}
+
