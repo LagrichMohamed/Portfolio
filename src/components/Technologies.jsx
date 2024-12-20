@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
-import { SiMongodb } from "react-icons/si"
+import { SiCsharp, SiMongodb } from "react-icons/si"
 import { DiJavascript, DiMysql } from "react-icons/di"
 import { DiPhp } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa"
@@ -33,6 +33,13 @@ const Technologies = () => {
       initial={{ opacity : 0, x : -100 }}
       transition={{ duration : 1.5 }}
       className="flex flex-wrap items-center justify-center gap-4">
+        <motion.div
+        variants={iconVariants(1.1)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+           <SiCsharp className="text-7xl text-purple-500 " />
+        </motion.div>
         <motion.div
         variants={iconVariants(2.4)}
         initial="initial"

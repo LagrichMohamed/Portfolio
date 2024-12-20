@@ -1,5 +1,5 @@
     // import React from 'react'
-    import logo from "../assets/kevinRushLogo.png"    
+    // import logo from "../assets/kevinRushLogo.png"    
     import logo1 from "../assets/ML Logo.png"    
     
     import {FaLinkedin} from "react-icons/fa"
@@ -17,8 +17,8 @@
                 
                 <a href="https://www.linkedin.com/in/mohamed-lagrich-04553a25b/"><FaLinkedin /></a>
                 <a href="https://github.com/LagrichMohamed"> <FaGithub /></a>
-                <FaSquareXTwitter />
-                <FaInstagram />
+                {/* <FaSquareXTwitter />
+                <FaInstagram /> */}
             </div>
         </nav>
       )

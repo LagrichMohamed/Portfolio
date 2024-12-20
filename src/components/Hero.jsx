@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from '../constants'
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/LagrichMohamedProfile.png"
 import { motion } from 'framer-motion';
 
 const container = (delay) => ({
@@ -27,7 +27,7 @@ const Hero = () => {
             variants={container(0.25)}
             initial="hidden"
             animate="visible"
-            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl track text-transparent">
+            className="bg-gradient-to-r from-orange-700 via-slate-500 to-orange-700 bg-clip-text text-3xl track text-transparent">
               Full Stack Developer
             </motion.span>
             <motion.p 
@@ -45,6 +45,7 @@ const Hero = () => {
         animate={{x:0, opacity: 1}}
         transition={{duration:1, delay:.6}}
         src={profilePic}
+        className='rounded-xl'
          alt="Kevin Rush Profile" />
           
         </div>
