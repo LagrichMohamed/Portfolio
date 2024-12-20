@@ -3,7 +3,7 @@ import { TbBrandNextjs } from "react-icons/tb"
 import { SiCsharp, SiMongodb } from "react-icons/si"
 import { DiJavascript, DiMysql } from "react-icons/di"
 import { DiPhp } from "react-icons/di"
-import { FaNodeJs } from "react-icons/fa"
+import { FaNodeJs, FaPython } from "react-icons/fa"
 import { FaLaravel } from "react-icons/fa"
 import { motion } from 'framer-motion';
 
@@ -39,6 +39,13 @@ const Technologies = () => {
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
            <SiCsharp className="text-7xl text-purple-500 " />
+        </motion.div>
+        <motion.div
+        variants={iconVariants(1.1)}
+        initial="initial"
+        animate="animate"
+        className="rounded-2xl border-4 border-neutral-800 p-4">
+           <FaPython className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div
         variants={iconVariants(2.4)}
