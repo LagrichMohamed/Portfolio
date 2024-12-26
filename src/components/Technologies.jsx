@@ -6,6 +6,9 @@ import { DiPhp } from "react-icons/di"
 import { FaNodeJs, FaPython } from "react-icons/fa"
 import { FaLaravel } from "react-icons/fa"
 import { motion } from 'framer-motion';
+import { BsUnity } from "react-icons/bs";
+import project4 from "../assets/python.svg";
+import { PiAlignRightFill, PiEmpty } from "react-icons/pi"
 
 const iconVariants = (duration) => ({
    initial : {y: -10},
@@ -34,19 +37,31 @@ const Technologies = () => {
       transition={{ duration : 1.5 }}
       className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
-        variants={iconVariants(1.1)}
+        variants={iconVariants(0.8)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
+         
            <SiCsharp className="text-7xl text-purple-500 " />
         </motion.div>
         <motion.div
-        variants={iconVariants(1.1)}
+        variants={iconVariants(3.1)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-           <FaPython className="text-7xl text-blue-600" />
+           <BsUnity className="text-7xl text-white " />
         </motion.div>
+        <motion.div
+  variants={iconVariants(1.1)}
+  initial="initial"
+  animate="animate"
+  className="rounded-2xl border-4 border-neutral-800 p-4"
+>
+  <img src={project4} alt="Python" style={{ width: "70px", height: "70px" }} />
+  {/* <FaPython className="text-7xl text-white" /> */}
+ 
+</motion.div>
+
         <motion.div
         variants={iconVariants(2.4)}
         initial="initial"

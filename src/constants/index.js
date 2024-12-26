@@ -1,11 +1,16 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a versatile full-stack developer and game developer with expertise in crafting robust web applications and engaging game experiences. With a strong foundation in modern web technologies and years of hands-on experience in Unity game development, I excel at building solutions that are both functional and visually appealing.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated full-stack developer with a passion for creating efficient and scalable web applications. My journey began with learning game development, where I built a strong foundation in C# and Unity. This initial experience sparked my interest in software development, leading me to enroll in a web development program to broaden my skill set.
+
+Now, I specialize in building responsive front-end interfaces using React and robust back-end systems with Node.js, MySQL, and MongoDB. My combined expertise in web and game development enables me to approach challenges creatively and deliver user-centered solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -44,37 +49,46 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like product listing, shopping cart, and Product Sorting.",
+    technologies: ["HTML", "CSS", "React", "Node.js"],
     link : "https://github.com/LagrichMohamed/E-commerce-TP",
     demo: "https://lagrichmohamed.github.io/E-commerce-TP/"
   },
   {
     title: "Task Management App",
+    image: project5,
+    description:
+      "An application for managing tasks and projects, with features such as task creation, edition, and deletion.",
+    technologies: ["HTML", "CSS", "React"],
+    link : "https://github.com/LagrichMohamed/Application-de-Gestion-de-Taches",
+    demo: "https://lagrichmohamed.github.io/Application-de-Gestion-de-Taches/"
+  },
+  {
+    title: "Expense Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-    link : "https://github.com/LagrichMohamed/Application-de-Gestion-de-Taches",
-    demo: "https://lagrichmohamed.github.io/E-commerce-TP/"
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link : "https://github.com/LagrichMohamed/E-commerce-TP",
-    demo: "https://lagrichmohamed.github.io/E-commerce-TP/"
+    technologies: ["HTML", "CSS", "React", "Tailwind css"],
+    link : "https://github.com/LagrichMohamed/Expense-Tracker",
+    demo: "https://lagrichmohamed.github.io/Expense-Tracker/"
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Youtube Clone",
+    image: project6,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    link : "https://github.com/LagrichMohamed/E-commerce-TP",
-    demo: "https://lagrichmohamed.github.io/E-commerce-TP/"
+      "A Youtube clone",
+    technologies: ["HTML", "CSS", "React", "Google Cloud Console", "Youtube Api"],
+    link : "https://github.com/LagrichMohamed/youtube-clone",
+    demo: "https://lagrichmohamed.github.io/youtube-clone/"
+  },
+  {
+    title: "Recipe Finder",
+    image: project7,
+    description:
+      "A Recipe Finder App",
+    technologies: ["HTML", "CSS", "React",  "Edamam Api"],
+    link : "https://github.com/LagrichMohamed/recette-app",
+    demo: "https://lagrichmohamed.github.io/recette-app/"
   },
 ];
 
