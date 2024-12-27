@@ -32,7 +32,7 @@ const Projects = () => {
                     <a href={project.link} 
                        target="_blank" 
                        rel="noopener noreferrer" 
-                       className="p-6 bg-purple-600 rounded-full hover:bg-purple-700 transition-colors text-lg">
+                       className="p-6 bg-red-600 rounded-full hover:bg-red-800 transition-colors text-lg">
                       <FaGithub className="text-white text-xl" />
                     </a>
                     <a href={project.demo || '#'} 
